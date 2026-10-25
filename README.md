@@ -1,10 +1,21 @@
 # QuantFin Analytics Platform
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://streamlit.io/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**QuantFin Analytics Platform** is an institutional quantitative finance, derivatives pricing, term structure modeling, and asset allocation suite. Developed in Python, NumPy, SciPy, and Streamlit, it bridges mathematical financial engineering with an interactive web user interface designed for quantitative analysts, portfolio managers, and risk engineers.
+> **Live Interactive Web App:** [asef-haque-quant.streamlit.app](https://share.streamlit.io) *(Free 1-click cloud demo)*
+
+---
+
+### ⚡ Executive Summary for Hiring Managers & Recruiters (15-Second Overview)
+
+| Pillar | Industry Problem Solved | Key Tech & Models Implemented |
+| :--- | :--- | :--- |
+| **📈 Term Structure & Yield Curves** | Bootstrapping zero-coupon discount curves from market Treasury bills and coupon bonds | Bisection YTM solver, quarterly/semi-annual forward rate curves, automated re-pricing sanity checks ($<0.005$ tolerance) |
+| **🎯 Derivatives & Exotics Lab** | Fast, reliable multi-model pricing for vanilla and path-dependent exotic options | Black-Scholes analytical formulas, CRR Binomial Trees (American/European), vectorized Monte Carlo GBM ($10^4$ paths), Greeks ($\Delta, \Gamma, \mathcal{V}, \Theta, \rho$) |
+| **⚖️ Portfolio Asset Allocation** | Overcoming Markowitz corner-portfolio concentration and input instability | Full Black-Litterman model (implied equilibrium prior $\Pi = \delta \Sigma w_{\text{mkt}}$, subjective investor views $P$ & $Q$, Bayesian posterior updates), SLSQP Efficient Frontier |
+| **💱 FX Triangular Arbitrage** | Identifying multi-currency cross-rate conversion loops and mispricings | Dijkstra multiplicative shortest-path graph algorithm, bid/ask spread fee sensitivity |
 
 ---
 
