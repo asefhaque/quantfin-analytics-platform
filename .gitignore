@@ -1,0 +1,36 @@
+# Environments
+.venv/
+.venv*/
+venv/
+env/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# IDE configurations
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Output / logs
+*.log
+
+# Academic Coursework & Copyrighted PDFs (Do NOT publish to GitHub)
+HW*/
+hw*/
+*.pdf
+*.doc
+*.docx
+*.zip
+*.xlsx
+
