@@ -123,6 +123,8 @@ python driver.py
 ## 👨‍💻 Author
 
 **Asef Haque**  
-- MS in Business Analytics | Brandeis University International Business School  
-- BA in Psychology (Cognitive/Behavioral) | Temple University  
-- Focus: Quantitative Finance, Financial Engineering, Statistical Modeling & Risk Analytics  
+- 1 year work experience in supply chain analytics
+- 1 year work experience in early learning education development
+- MS in Business Analytics | Brandeis University, School of Business & Economics  
+- BA in Psychology | Temple University  
+- Focus: Quantitative Finance, Statistical Modeling & Risk Analytics, Consumer Behavior  
