@@ -25,6 +25,10 @@ desktop.ini
 # Output / logs
 *.log
 
+# Local experimental apps
+app.py
+run_app.*
+
 # Academic Coursework & Copyrighted PDFs (Do NOT publish to GitHub)
 HW*/
 hw*/

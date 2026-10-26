@@ -43,12 +43,12 @@ A multi-asset quantitative finance, derivatives pricing, term structure modeling
 
 ## 🏛️ Platform Architecture & Core Modules
 
-The platform is structured into four core analytical modules:
+The platform is structured into clean analytical modules:
 
 ```
 QuantFin/
-├── app.py                      # Main Streamlit web application & interactive UI
-├── quant_engine.py             # Unified quant API across all pricing & modeling engines
+├── quant_engine.py             # Unified quant API across pricing, curves & portfolio models
+├── driver.py                   # Model execution script for term structure and analytics
 ├── bonds/                      # Fixed income instrument classes (Bill, Bond, coupon cashflows)
 ├── term_structure/             # Spot rate bootstrapping, discount factors & forward curves
 ├── data/                       # Treasury bills, bonds, exchange rates, and stock price histories
@@ -56,9 +56,10 @@ QuantFin/
 │   ├── bonds.txt               # Benchmark coupon-bearing Treasury bonds
 │   ├── usd_exchange_rates.csv  # Global cross-currency FX rates
 │   └── stocks/                 # S&P 500 equities historical close prices
-├── requirements.txt            # Dependency specification for one-click deployment
-├── run_app.bat                 # One-click Windows launch script
-└── README.md                   # Technical documentation and methodology
+├── assets/                     # Visual charts generated directly by the Python models
+├── tests/                      # Automated validation and pricing test suite
+├── requirements.txt            # Python dependencies (NumPy, SciPy, Matplotlib, Pandas)
+└── README.md                   # Technical documentation and visual gallery
 ```
 
 ---
@@ -98,31 +99,22 @@ QuantFin/
 
 ---
 
-## 🚀 Quickstart & Local Installation
+## 💻 Running the Models Locally (Optional)
 
-### Prerequisites
-- Python 3.10+ (or [uv](https://docs.astral.sh/uv/))
+All model outputs and charts are already generated and documented in the visual gallery above. If you wish to replicate the calculations or run the test suite locally:
 
-### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/quantfin-analytics-platform.git
+# 1. Clone the repository
+git clone https://github.com/asefhaque/quantfin-analytics-platform.git
 cd quantfin-analytics-platform
-```
 
-### 2. Set up a virtual environment & install dependencies
-```bash
-# Using standard venv:
-python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+# 2. Install dependencies
 pip install -r requirements.txt
 
-# Or using uv (instant):
-uv venv .venv --python 3.12
-uv pip install -r requirements.txt
-```
+# 3. Run the automated test suite
+python tests/test_quant_engine.py
 
-### 3. Run the Analytics Suite
-```bash
+# 4. Run the fixed-income term structure analytics
 python driver.py
 ```
 
