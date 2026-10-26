@@ -19,6 +19,26 @@
 
 ---
 
+## 📊 Visual Gallery & Model Outputs
+
+### 1. Portfolio Risk & Asset Allocation Analysis
+> Built in Python to analyze how to balance risk and return in an investment portfolio. This project maps the trade-off between volatility and return using the Markowitz Efficient Frontier, and applies the Black-Litterman model across global market indices to show how an investor can adjust portfolio weights based on their own market expectations.
+
+| Markowitz Efficient Frontier & CML | Black-Litterman Optimal Tilts |
+| :---: | :---: |
+| <img src="assets/efficient%20frontier.png" width="480"/> | <img src="assets/black%20litterman.png" width="480"/> |
+
+---
+
+### 2. Options Simulation & Interest Rate Modeling
+> A Python modeling project focused on financial pricing and yield curves. It uses Monte Carlo simulations to model price trajectories for exotic Barrier Up-and-Out Call options (BuoC), and bootstraps U.S. Treasury spot rates, forward rates, and discount factors across maturities up to 30 years.
+
+| Monte Carlo Barrier Up-and-Out Call (BuoC) | Bootstrapped U.S. Treasury Curves (30y) |
+| :---: | :---: |
+| <img src="assets/monte%20carlo%20pricing.png" width="480"/> | <img src="assets/term%20structures.png" width="480"/> |
+
+---
+
 ## 🏛️ Platform Architecture & Core Modules
 
 The platform is structured into four core analytical modules:
