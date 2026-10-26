@@ -1,10 +1,12 @@
-# QuantFin Analytics Platform
+# QuantFin: Quantitative Finance & Portfolio Analytics Engine
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)](https://numpy.org/)
+[![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?logo=scipy&logoColor=white)](https://scipy.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c.svg)](https://matplotlib.org/)
 
-> **Live Interactive Web App:** [asef-haque-quant.streamlit.app](https://share.streamlit.io) *(Free 1-click cloud demo)*
+A multi-asset quantitative finance, derivatives pricing, term structure modeling, and asset allocation engine developed in Python (NumPy, SciPy, Matplotlib). Designed to bridge mathematical financial engineering with practical, empirical portfolio analysis.
 
 ---
 
@@ -119,20 +121,10 @@ uv venv .venv --python 3.12
 uv pip install -r requirements.txt
 ```
 
-### 3. Launch the Web Application
+### 3. Run the Analytics Suite
 ```bash
-streamlit run app.py
+python driver.py
 ```
-*(On Windows, you can simply double-click `run_app.bat`)*
-
----
-
-## ☁️ Deploying to Streamlit Cloud (1-Click Free Hosting)
-
-1. Push this directory to your personal GitHub account (e.g. `github.com/your-username/quantfin-suite`).
-2. Log into [share.streamlit.io](https://share.streamlit.io/).
-3. Select your repository, branch (`main`), and main file path (`app.py`).
-4. Click **Deploy** — your interactive quant portfolio will be live at `https://your-name-quant.streamlit.app`!
 
 ---
 
