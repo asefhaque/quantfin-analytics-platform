@@ -10,7 +10,7 @@ A multi-asset quantitative finance, derivatives pricing, term structure modeling
 
 ---
 
-### ⚡ Executive Summary for Hiring Managers & Recruiters (15-Second Overview)
+### ⚡ Executive Summary
 
 | Pillar | Industry Problem Solved | Key Tech & Models Implemented |
 | :--- | :--- | :--- |
