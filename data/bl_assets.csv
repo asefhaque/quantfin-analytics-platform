@@ -1,0 +1,8 @@
+Asset,Ticker,Volatility,MarketWeight,EquilibriumReturn
+Australia,AUL,0.160,0.016,0.0394
+Canada,CAN,0.203,0.022,0.0692
+France,FRA,0.248,0.052,0.0836
+Germany,GER,0.271,0.055,0.0903
+Japan,JAP,0.210,0.116,0.0430
+United Kingdom,UKG,0.200,0.124,0.0677
+United States,USA,0.187,0.615,0.0756
